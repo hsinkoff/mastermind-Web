@@ -7,6 +7,6 @@ class GamesController < ApplicationController
 		@game = Game.last
 		@correct_place = @game.correct_place
 		@correct_color = @game.correct_color
-	#	@game.complete_round
+		@game.complete_round
 	end
 end

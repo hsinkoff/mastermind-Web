@@ -127,7 +127,7 @@ class Game < ActiveRecord::Base
     self.fill_in_known
     self.reorder
     self.final_round
-    self.update
+    #self.update
     @@round = @@round + 1
   end
   
